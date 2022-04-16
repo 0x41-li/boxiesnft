@@ -1,5 +1,4 @@
-const colors = require('tailwindcss/colors')
-
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
@@ -8,18 +7,19 @@ module.exports = {
   ],
   theme: {
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
+      transparent: "transparent",
+      current: "currentColor",
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      orange: colors.orange,
       red: colors.red,
-      bggray : '#EFECE7',
-      bgred : '#B71917'
+      bggray: "#EFECE7",
+      bgred: "#B71917",
     },
   },
   plugins: [],
-}
+};
