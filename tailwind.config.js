@@ -17,7 +17,8 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       red: colors.red,
-      bggray : '#EFECE7'
+      bggray : '#EFECE7',
+      bgred : '#B71917'
     },
   },
   plugins: [],
