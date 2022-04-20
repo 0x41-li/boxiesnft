@@ -1,4 +1,4 @@
-import styles from "./BodyChar.module.css";
+import styles from "./BoxyChar.module.css";
 
 import { useEffect } from "react";
 

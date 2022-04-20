@@ -2,6 +2,8 @@
 import { CheckIcon } from "@heroicons/react/outline";
 import BoxyChar from "./BoxyChar";
 
+import styles from "./boxyChar.module.css";
+
 const features = [
   {
     name: "Invite team members",
@@ -70,7 +72,24 @@ export default function Example() {
         </div>
       </div>
 
-      <BoxyChar />
+      <div
+        className={
+          "max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:pt-24 lg:pb-12 lg:px-8 " +
+          styles.boxyCharRow
+        }
+      >
+        <div className={styles.boxyCharRow__leftBtn}>
+          <button className="bg-bgred whitespace-nowrap font-bold inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-sm shadow-sm text-base text-white">
+            Button 1
+          </button>
+        </div>
+        <BoxyChar />
+        <div className={styles.boxyCharRow__rightBtn}>
+          <button className="bg-bgred whitespace-nowrap font-bold inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-sm shadow-sm text-base text-white">
+            Button 2
+          </button>
+        </div>
+      </div>
 
       <div className="bg-bgred h-1"></div>
 

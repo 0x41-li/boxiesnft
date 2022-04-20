@@ -1,8 +1,26 @@
+/* boxy character row */
+
+.boxyCharRow {
+  display: flex;
+}
+
+.boxyCharRow__leftBtn {
+  display: flex;
+}
+
+.boxyCharRow__leftBtn button {
+  
+}
+
+/* boxy character image and eyes */
+
 .boxyCharacter {
   position: relative;
-  width: 60%;
+  width: 30vw;
   margin: 0 auto;
   margin-bottom: 60px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .boxyCharacter__boxyEye {
@@ -39,7 +57,15 @@
   top: -2%;
   left: -6%;
   background-color: #fff;
-  width: 2.5vw;
-  height: 2.5vw;
+  width: 1.5vw;
+  height: 1.5vw;
   border-radius: 50%;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .boxyCharacter__boxyEye {
+    border: 10px solid #3c1214;
+  }
 }
