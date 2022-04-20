@@ -1,0 +1,45 @@
+.boxyCharacter {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.boxyCharacter__boxyEye {
+  position: absolute;
+  top: 48%;
+  width: 23%;
+  height: 25%;
+  border: 1.2vw solid #3c1214;
+  background-color: #ededed;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.boxyCharacter__leftEye {
+  left: 14%;
+}
+
+.boxyCharacter__rightEye {
+  left: 47.5%;
+}
+
+.boxyCharacter__EyeBall {
+  position: absolute;
+  top: 24%;
+  left: 30%;
+  width: 53%;
+  height: 54%;
+  background-color: #3c1214;
+  border-radius: 50%;
+}
+
+.boxyCharacter__EyeBall div {
+  position: absolute;
+  top: -2%;
+  left: -6%;
+  background-color: #fff;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+}

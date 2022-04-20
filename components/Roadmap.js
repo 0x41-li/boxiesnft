@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from "@heroicons/react/outline";
+import BoxyChar from "./BoxyChar";
 
 const features = [
   {
@@ -35,6 +36,7 @@ export default function Example() {
       <h2 className="text-center text-4xl font-extrabold text-gray-900 sm:text-5xl">
         ROADMAP
       </h2>
+
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:pt-24 lg:pb-12 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 ">
         <div>
           <h2 className="text-base font-semibold text-bgred uppercase tracking-wide">
@@ -67,6 +69,9 @@ export default function Example() {
           </dl>
         </div>
       </div>
+
+      <BoxyChar />
+
       <div className="bg-bgred h-1"></div>
 
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 ">
